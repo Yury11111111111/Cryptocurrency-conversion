@@ -1,0 +1,151 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.course {
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+  text-align: center;
+}
+
+.header {
+  width: 100vw;
+  height: 100px;
+  background-color: bisque;
+  display: flex;
+}
+
+.banner {
+  margin-left: 30px;
+  font-weight: 400;
+}
+
+.logo {
+  margin-left: 50px;
+  height: 100px;
+  width: 100px;
+  background-image: url("../../img/3754596.png");
+  background-size: cover;
+}
+
+.nav {
+  font-size: 30px;
+  margin-right: 50px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 700;
+}
+
+.briefcase {
+  margin-right: 10px;
+  display: inline-flex;
+  height: 30px;
+  width: 30px;
+  background-image: url("../../img/175-briefcase.png");
+  background-size: cover;
+}
+
+.conversion {
+  margin-right: 10px;
+  display: inline-flex;
+  height: 30px;
+  width: 30px;
+  background-image: url("../../img/img_453143.png");
+  background-size: cover;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  flex-wrap: wrap;
+}
+
+.Converter {
+  display: flex;
+}
+
+.Converter__first_input {
+  background-color: white;
+  border-color: black;
+  border-radius: 20px;
+  font-size: medium;
+}
+.Converter__second_input {
+  background-color: white;
+  border-color: black;
+  border-radius: 20px;
+  font-size: medium;
+}
+
+#Converter__first_list,
+#Converter__second_list {
+  border-radius: 500px;
+  margin-right: 20px;
+}
+
+.charts {
+  text-align: center;
+}
+
+.chart {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.Briefcase__head {
+  display: flex;
+  margin: 0 auto;
+}
+
+.Briefcase__bitcoin,
+.Briefcase__ethereum {
+  margin: 0 100px;
+}
+
+.Briefcase__changeBTC,
+.Briefcase__changeETH {
+  background-color: white;
+  border-color: black;
+  border-radius: 20px;
+  font-size: medium;
+}
+
+.Briefcase__plus,
+.Briefcase__minus {
+  border-radius: 50px;
+  margin-right: 20px;
+  background-color: white;
+}
+
+.Briefcase__chart {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 550px;
+  left: 550px;
+}
+
+.Briefcase__wholeСost {
+  margin-left: 260px;
+  font-size: 30px;
+}
