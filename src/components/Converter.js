@@ -52,8 +52,8 @@ const Converter = (props) => {
     BTC: 1 / courseBTC.USD,
   });
 
-  const menu1 = document.querySelector("#first_list")?.value;
-  const menu2 = document.querySelector("#second_list")?.value;
+  const menu1 = document.querySelector("#Converter__first_list")?.value;
+  const menu2 = document.querySelector("#Converter__second_list")?.value;
   var choise = courseBTC;
   var result_choise = courseBTC.USD;
 
